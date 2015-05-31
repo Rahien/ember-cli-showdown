@@ -30,8 +30,14 @@ You can also pass a bound value:
 {{markdown-to-html markdown=postContent}}
 ```
 
+You can pass an options hash to the [Converter](https://github.com/showdownjs/showdown#locally) that is used by markdown
+
+```handlebars
+{{markdown-to-html markdown=postContent options=someHash}}
+```
+
 ## Dependencies
-* [Showdown](https://github.com/coreyti/showdown)
+* [Showdown](https://github.com/coreyti/showdown, included in vendor)
 
 ## Development
 
