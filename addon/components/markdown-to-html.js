@@ -1,9 +1,9 @@
-/* global Showdown */
+/* global showdown */
 import Ember from 'ember';
 
 export default Ember.Component.extend({
   afterInit: function() {
-    this.converter = new Showdown.converter();
+    this.converter = new showdown.Converter();
   }.on('init'),
 
   html: function() {

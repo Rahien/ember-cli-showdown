@@ -3,7 +3,7 @@
 var ncp = require('ncp'),
     mkdirp = require('mkdirp'),
 
-    src = 'node_modules/showdown/compressed/showdown.js',
+    src = 'node_modules/showdown/dist/showdown.min.js',
     dest = 'vendor/showdown/showdown.js';
 
 mkdirp('vendor/showdown', function(err) {
